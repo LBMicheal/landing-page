@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+/* HEADER */
+.header {
+    background: #1f2937;
+    height: 10%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 48px;
+    
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: lighter;
+}
